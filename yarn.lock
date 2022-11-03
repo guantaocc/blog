@@ -657,6 +657,11 @@
   dependencies:
     "function-bind" "^1.1.1"
 
+"hexo-butterfly-article-double-row@^1.0.2":
+  "integrity" "sha512-rKFj4uUrjerTzmZvagTI2orsoxmmMj9Runfdht/4SxKY7ARfpYBd6CAmc14Pi9IE1T+5n6VKMA+WW4g86ZZeFA=="
+  "resolved" "https://registry.npmmirror.com/hexo-butterfly-article-double-row/-/hexo-butterfly-article-double-row-1.0.2.tgz"
+  "version" "1.0.2"
+
 "hexo-cli@^4.3.0":
   "integrity" "sha512-lr46h1tK1RNQJAQZbzKYAWGsmqF5DLrW6xKEakqv/o9JqgdeempBjIm7HqjcZEUBpWij4EO65X6YJiDmT9LR7g=="
   "resolved" "https://registry.npmmirror.com/hexo-cli/-/hexo-cli-4.3.0.tgz"
