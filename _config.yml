@@ -104,6 +104,11 @@ error_404:
   subtitle: "页面沒有找到"
   background: 
 
+search:
+  path: search.xml
+  field: post
+  content: true
+
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
