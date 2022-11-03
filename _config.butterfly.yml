@@ -148,11 +148,11 @@ aside:
     button:
       enable: true
       icon: # fab fa-github
-      text: 🛴前往小家...
-      link: https://github.com/fomalhaut1998
+      text: 🛴我的主页...
+      link: https://github.com/guantaocc
   card_announcement:
     enable: true
-    content: <center>主域名：<br><a href="https://www.fomal.cc"><b><font color="#5ea6e5">fomal.cc</font></b></a>&nbsp;|&nbsp;<a href="https://www.fomal.cn"><b><font color="#5ea6e5">fomal.cn</font></b></a><br>备用域名：<br><a href="https://blog.fomal.cc"><b><font color="#5ea6e5">blog.fomal.cc</font></b></a><br><a href="https://aa.fomal.cc"><b><font color="#5ea6e5">aa.fomal.cc</font></b></a><br><a href="https://bb.fomal.cc"><b><font color="#5ea6e5">bb.fomal.cc</font></b></a><br><a href="mailto:admin@fomal.cn">📬：<b><font color="#a591e0">admin@fomal.cn</font></b></a></center>
+    content: <center>主域名：<br><a href="https://guantaocc.github.io"><b><font color="#5ea6e5">fomal.cc</font></b></a>&nbsp;|&nbsp;<a href="https://www.fomal.cn"><b><font color="#5ea6e5">fomal.cn</font></b></a><br>备用域名：<br><a href="https://blog.fomal.cc"><b><font color="#5ea6e5">blog.fomal.cc</font></b></a><br><a href="https://aa.fomal.cc"><b><font color="#5ea6e5">aa.fomal.cc</font></b></a><br><a href="https://bb.fomal.cc"><b><font color="#5ea6e5">bb.fomal.cc</font></b></a><br><a href="mailto:admin@fomal.cn">📬：<b><font color="#a591e0">admin@fomal.cn</font></b></a></center>
   card_recent_post:
     enable: false
     limit: 3 # if set 0 will show all
@@ -197,13 +197,6 @@ runtimeshow:
   #格式: 月/日/年 时间
   #也可以写成 年/月/日 时间
 
-
-newest_comments:
-  enable: true
-  sort_order: # Don't modify the setting unless you know how it works
-  limit: 6  # 显示的数量
-  storage: 10 # 设置缓存时间，单位 分钟 
-  avatar: true # 是否显示头像
 
 # 网站背景
 background: url(https://source.fomal.cc/img/dm1.webp)
