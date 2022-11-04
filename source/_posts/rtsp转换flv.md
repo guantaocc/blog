@@ -1,7 +1,7 @@
 ---
 title: 'node 转换rtsp视频流并转换flv格式在前端播放'
 cover: /assets/images/bg1.webp
-tags: rtsp
+tags: 流媒体
 categories: 流媒体
 ---
 
