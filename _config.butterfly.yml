@@ -230,7 +230,6 @@ font:
   font-family: var(--global-font), Consolas_1, -apple-system, 'Quicksand', 'Nimbus Roman No9 L', 'PingFang SC', 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', sans-serif;
   # consolas, ZhuZiAWan_light, "Microsoft YaHei", Menlo, "PingFang SC", "Microsoft JhengHei", sans-serif
   # Consolas_1, ZhuZiAWan_light, "Microsoft YaHei", Menlo, "PingFang SC", "Microsoft JhengHei", sans-serif
-  code-font-family: Consolas_1, var(--global-font), "Microsoft YaHei", Menlo, "PingFang SC", "Microsoft JhengHei", sans-serif
 
 blog_title_font:
   font_link: 
@@ -251,8 +250,8 @@ subtitle:
   source: false
   # 如果關閉打字效果，subtitle 只會顯示 sub 的第一行文字
   sub:
-    - "Welcome to my blog!🤣🤣🤣"
-    - "Hope you have a nice day!🍭🍭🍭"
+    - "Welcome to my blog!"
+    - "Hope you have a nice day!"
 
 preloader: true
 
@@ -281,6 +280,7 @@ inject:
     - <link rel="stylesheet" href="/assets/css/blog.css">
     - <link rel="stylesheet" href="/assets/css/custom_progress_bar.css">
     - <link rel="stylesheet" href="/assets/css/custom_post.css">
+    - <link rel="stylesheet" href="/assets/css/font.css">
     - <link rel="stylesheet" href="/assets/css/prism-one-dark.css">
   bottom:
     - <script src="/assets/js/blog.js"></script>

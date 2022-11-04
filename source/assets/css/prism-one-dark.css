@@ -33,7 +33,7 @@
   /*代码框字体顔色 【必须】 (把下面.hljs的 color复製到这里来)*/
   --hl-bg: #221a0f;
   /*代码框背景色 【必须】 (把下面.hljs的 background复製到这里来)*/
-  --hltools-bg: #1f320f;
+  --hltools-bg: #3e4451;
   /*代码框顶部工具栏背景色 【可选】(如果你关掉了 copy、lang 和 shrink,可不用配置这个）*/
   --hltools-color: #fff;
   /*代码框顶部工具栏字体顔色 【可选】(如果你关掉了 copy、lang 和 shrink,可不用配置这个）*/

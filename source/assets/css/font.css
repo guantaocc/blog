@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'Fira Code';
+  src: url('/assets/font/FiraCode-Regular.woff2') format('woff2'),
+    url('/assets/font/FiraCode-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+:root {
+  --code-font: 'Fira Code'
+}
