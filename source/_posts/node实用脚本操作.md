@@ -8,6 +8,11 @@ categories: node
 
 ## node 简单静态服务器
 
+
+```bash
+npm install express compression
+```
+
 ```js
 const express = require("express");
 
