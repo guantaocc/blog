@@ -1,5 +1,5 @@
 ---
-title: webgl基础(初始化，转换坐标系，基础shader画点，基本动画)
+title: webgl基础一(初始化，转换坐标系，基础shader画点，基本动画)
 cover: /assets/images/fstv4630juwkb5iwyocs5gewxkla.webp
 tags: webgl
 categories: webgl
