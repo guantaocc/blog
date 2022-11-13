@@ -1,6 +1,6 @@
 ---
 title: webgl基础三(图形平移，旋转和缩放)
-cover: /assets/images/232947_18714716152.webp
+cover: /assets/images/23842_32271190357.webp
 tags: webgl
 categories: webgl
 ---
