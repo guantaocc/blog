@@ -57,6 +57,10 @@ categories: webgl
   aw
 ]
 
+[
+  ax * 1 + 0 * ay + 0 * az + aw * 0
+]
+
 ```
 
 ### 平移矩阵
