@@ -10,6 +10,7 @@ categories: vscode
 
 ### 配置自动格式化
 
+> 需要安装 vscode 自动格式化插件 ESLint
 setting.json
 
 ```json
@@ -47,7 +48,7 @@ vue.config.js 配置 eslint-loader
 
 ```js
 chainWebpack: config => {
-  // ESLint 强制校验，开启后如果ESLint校验不通过，则运行不起来。错误也将显示在浏览器页面上
+  // ESLint 强制校验
   config.module
     .rule('eslint')
     .include.add(path.resolve(__dirname, './src')).end()

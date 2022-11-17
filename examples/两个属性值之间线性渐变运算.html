@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- 题目: 给出 0 - 1 之间的 1-2s 内的渐变数值 -->
+  <script>
+    let keyFrames = [
+      [
+        1000,
+        0
+      ],
+      [
+        2000,
+        1
+      ]
+    ]
+    function getLinarValue(frames, current) {
+      let [x1, y1] = [frames[0][0], frames[0][1]]
+      let [x2, y2] = [frames[1][0], frames[1][1]]
+      // 点斜式 线性方程
+      let k = (y2 - y1) / (x2 - x1)
+      let b = y1 - k * x1
+      return k * current + b
+    }
+
+    // 获取 1s - 2s 之间的线性变化
+    let start = new Date().getTime()
+    let raf
+    function run(time){
+      if (time >= 1000 && time <= 2000) {
+        console.log('当前时间',time, '值', getLinarValue(keyFrames, time))
+      }
+      if(time > 2000){
+        window.cancelAnimationFrame(raf)
+      }else {
+        raf = requestAnimationFrame(run)
+      }
+    }
+    
+    window.requestAnimationFrame(run)
+
+  </script>
+</body>
+
+</html>
